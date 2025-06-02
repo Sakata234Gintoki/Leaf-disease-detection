@@ -60,3 +60,6 @@ The **InceptionV3** model achieved excellent performance on the validation set, 
 - The model shows high precision and recall, indicating it's both accurate and consistent.
 - Disease class predictions are well-separated, with minimal confusion.
 - Training and validation loss curves show no overfitting.
+## 📊 Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
