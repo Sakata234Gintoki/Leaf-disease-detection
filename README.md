@@ -39,16 +39,24 @@ The model was fine-tuned on a custom dataset of leaf images and demonstrates str
 - View model confidence scores.
 
 ## 📁 Project Structure
-inception-leaf-disease/
-│
-├── inception_model.h5 # Trained InceptionV3 model
-├── app.py # Gradio interface
-├── utils.py # Preprocessing and prediction helpers
-├── requirements.txt # Dependencies
-└── README.md # Project overview
+<pre> inception-leaf-disease/ 
+  ├── inception_model.h5 # Trained InceptionV3 model
+  ├── app.py # Gradio app code
+  ├── requirements.txt # Python dependencies
+  ├── README.md # Project overview
+   </pre>
 ## 📈 Results
-Metric	Value
-Accuracy	96.01%
-Precision	~95.8%
-Recall	~96.2%
-F1-Score	~96.0%
+
+The **InceptionV3** model achieved excellent performance on the validation set, demonstrating strong generalization across multiple leaf disease classes.
+
+| Metric       | Value      |
+|--------------|------------|
+| Accuracy     | 96.01%     |
+| Precision    | 95.8%      |
+| Recall       | 96.2%      |
+| F1-Score     | 96.0%      |
+| Validation Loss | 0.11   |
+
+- The model shows high precision and recall, indicating it's both accurate and consistent.
+- Disease class predictions are well-separated, with minimal confusion.
+- Training and validation loss curves show no overfitting.
