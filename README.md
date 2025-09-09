@@ -1,6 +1,6 @@
 # 🌿 Leaf Disease Detection using InceptionV3
 
-This project uses the **InceptionV3** deep learning model to detect diseases in plant leaves with high accuracy. The tool helps in early identification of plant diseases to support farmers and researchers in improving crop health and yield.
+This project uses the **InceptionV3** **Resnet50** and **VGG16** deep learning models to detect diseases in plant leaves with high accuracy. The tool helps in early identification of plant diseases to support farmers and researchers in improving crop health and yield. This project was developed by Lekshmi RB , Gopika A and Pranoydas Eranadath.
 
 ## 🚀 Live Demo
 
